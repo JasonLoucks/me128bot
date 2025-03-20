@@ -17,9 +17,7 @@
 from canvasapi import Canvas  # docs: https://canvasapi.readthedocs.io/en/stable/index.html, live api: https://csus.instructure.com/doc/api/live
 import discord                # docs: https://discordpy.readthedocs.io/en/stable/api.html
 from discord.ext import tasks
-import json                   # docs: https://docs.python.org/3/library/json.html
 import re                     # docs: https://docs.python.org/3/howto/regex.html
-from datetime import datetime, timezone # docs: https://docs.python.org/3/library/datetime.html
 
 from canvas_bot import get_files_by_folder, get_new_updated, get_last_check
 from config import CANVAS_URL, CANVAS_TOKEN, CANVAS_COURSE, CANVAS_FOLDERS, DISCORD_TOKEN, DISCORD_CHANNEL

@@ -1,11 +1,10 @@
-from canvasapi import Canvas
 from canvasapi.assignment import Assignment
 from canvasapi.file import File
 from canvasapi.folder import Folder
-from datetime import datetime, timezone, timedelta
+from datetime import datetime, timezone
+from pathlib import Path
 import json
 import os
-from pathlib import Path
 
 def get_files_by_folder( course ):
     """
