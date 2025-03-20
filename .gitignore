@@ -1,0 +1,7 @@
+# folders
+.venv/
+__pycache__/
+
+# files
+config.py
+last_check.log

@@ -1,0 +1,10 @@
+CANVAS_URL = "https://example.instructure.com"                                          # Your institution's Canvas URL
+CANVAS_TOKEN = "12345~A1b2A1b2A1b2A1b2A1b2A1b2A1b2A1b2A1b2A1b2A1b2A1b2A1b2A1b2A1b2A1b2" # Your Canvas API key
+CANVAS_COURSE = 123456                                                                  # Desired course's ID
+CANVAS_FOLDERS = [ 9876543,                                                             # Desired folders' IDs
+                   8765432,
+                   7654321,
+                   6543210 ]
+
+DISCORD_TOKEN = "A1b2A1b2A1b2A1b2A1b2A1b2A1b2A1b2A1b2A1b2A1b2A1b2A1b2A1b2A1b2A1b2A1b2A" # Your Discord bot's token
+DISCORD_CHANNEL = 1234567890123456789                                                   # Desired channel's ID
