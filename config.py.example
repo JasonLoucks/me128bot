@@ -8,3 +8,5 @@ CANVAS_FOLDERS = [ 9876543,                                                     
 
 DISCORD_TOKEN = "A1b2A1b2A1b2A1b2A1b2A1b2A1b2A1b2A1b2A1b2A1b2A1b2A1b2A1b2A1b2A1b2A1b2A" # Your Discord bot's token
 DISCORD_CHANNEL = 1234567890123456789                                                   # Desired channel's ID
+
+LAST_CHECK_FILE = 'C:/path/to/your/file/'                                               # Directory where you want your log file to go (will automatically create me128bot_last_check.log here)

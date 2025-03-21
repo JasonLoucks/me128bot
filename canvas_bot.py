@@ -6,6 +6,8 @@ from pathlib import Path
 import json
 import os
 
+from config import LAST_CHECK_DIR
+
 def get_files_by_folder( course ):
     """
     Returns a dictionary of all files in a course, grouped by folder.
@@ -51,7 +53,7 @@ def get_new_updated( ffas, last_check ):
     return nu
 
 def get_last_check():
-    last_check_file = Path( 'last_check.log' )
+    last_check_file = Path( LAST_CHECK_DIR + 'me128bot_last_check.log' )
     this_check = datetime.now(timezone.utc)
 
     # get time of last check and log current time

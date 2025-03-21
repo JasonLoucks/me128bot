@@ -28,7 +28,7 @@ from config import CANVAS_URL, CANVAS_TOKEN, CANVAS_COURSE, CANVAS_FOLDERS, DISC
 intents = discord.Intents.default()
 client = discord.Client( intents = intents )
 
-@tasks.loop( minutes = 10 )
+@tasks.loop( seconds = 30 )
 async def run_checks( course, bot_channel ):
     # get time of last check and log current time
     this_check, last_check = get_last_check()
